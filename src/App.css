@@ -1,0 +1,82 @@
+/* Adicionando atributos de cores para componentes */
+
+.c-000000 {
+  color: #000000;
+}
+
+.c-ffffff {
+  color: #ffffff;
+}
+
+/* Adicionando atributos para textos */
+
+.t-none {
+  text-decoration: none;
+}
+
+.l-none {
+  list-style: none;
+}
+
+.txt-faca-doacao {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.txt-ong-impacto {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 130%;
+  /* or 91px */
+  letter-spacing: 0.3px;
+  height: 182px;
+  color: #303030;
+}
+
+.txt-saiba-mais {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  height: 18px;
+}
+
+/* Adicionando atributos para componentes de botões */
+
+.btn-faca-doacao {
+  padding: 7px 24px;
+  width: 166px;
+  height: 42px;
+  background: #8F1D65;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn-saiba-mais {
+  background: #8F1D65;
+  border-radius: 20px;
+  padding: 8px 25px;
+  width: 130px;
+  height: 42px;
+  border: none;
+}
+
+/* Adicionando atributos de margem para componentes html */
+
+.mt-10 {
+  margin-top: 10rem;
+}
+
+/* Adicionando atributos para background da landing-page */
+
+.bg-landing-pv {
+  background-image: url(./img/background-lp-prato-verde.png);
+  background-size: cover;
+}
