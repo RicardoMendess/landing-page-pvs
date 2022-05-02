@@ -7,6 +7,16 @@ import Homem from './img/imagem-homem-camisa-azul.png';
 import BalaoEsquerdo from './img/balao-verde-esquerdo.png';
 import GrupoJovens from './img/grupo-jovens.png';
 import NossaHistoria from './img/nossa-historia.png';
+import BalaoDireito from './img/balao-verde-direito.png';
+import ProjetoPrato from './img/projetos-do-prato.png';
+import HortaAgro from './img/horta-agroecologica.png';
+import BioFertilizante from './img/biofertilizantes.png';
+import PlantaVerde from './img/plantacao-verde.png';
+import MaosJuntas from './img/maos-juntas.png';
+import Impacto from './img/impacto-sociedade.png';
+import MaosTronco from './img/maos-ao-tronco.png';
+import MaosVida from './img/maos-vida.png';
+import MaosTerra from './img/maos-terra.png';
 
 function App() {
 
@@ -67,7 +77,7 @@ function App() {
           </div>
         </div>
         <div className="col-12">
-          <img src={BalaoEsquerdo} alt="Imagem de balão esquerdo" />
+          <img src={BalaoEsquerdo} alt="Imagem de balão esquerdo verde" />
         </div>
         <div className="container">
           <div className="col-12 ">
@@ -80,6 +90,90 @@ function App() {
                 <p className="text-start fs-5 mt-5">
                   O Prato Verde Sustentável é uma tecnologia de impacto socioambiental criada em 2013, pelo gestor ambiental Wagner Ramalho, localizado na Associação Mutirão, no bairro Jardim Filhos da Terra, zona norte de São Paulo. Atuamos na promoção da soberania alimentar, a partir da produção de alimentos na cidade, utilizando como método de trabalho a educação ambiental, ensinando sobre a origem dos alimentos, como plantar, reutilizar água da chuva, reciclar resíduos orgânicos entre outros temas.
                 </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-12">
+          <img src={BalaoDireito} alt="Imagem de balão direito verde" />
+        </div>
+        <div className="container">
+          <div className="col-12">
+            <h1 className="text-center"><img src={ProjetoPrato} alt="Imagem referente ao texto Projetos do Prato" /></h1>
+          </div>
+          <div className="col-12 mt-5">
+            <div className="row d-flex">
+              <div className="col-12 col-sm-6">
+                <div className="card b-40">
+                  <img src={HortaAgro} alt="Card que leva a informações sobre a horta agroecológica" />
+                  <div className="card-img-overlay bg-cards-prato mt-16">
+                    <p className="card-text text-center text-light text-legend-cards">Horta Agroecológica</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-sm-6">
+                <div className="card b-40">
+                  <img src={BioFertilizante} alt="Card que leva a informações sobre biofertilizantes" />
+                  <div className="card-img-overlay bg-cards-prato mt-16">
+                    <p className="card-text text-center text-light text-legend-cards">Biofertilizantes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 mt-4">
+            <div className="row d-flex">
+              <div className="col-12 col-sm-6">
+                <div className="card b-40">
+                  <img src={PlantaVerde} className="card-img-top" alt="Card que leva a informações sobre Consultoria Ambiental"></img>
+                  <div className="card-img-overlay bg-cards-prato mt-16">
+                    <p className="card-text text-center text-light text-legend-cards">Consultoria Ambiental</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-sm-6">
+                <div className="card b-40" >
+                  <img src={MaosJuntas} className="card-img-top" alt="Card que leva a informações osbre Cursos e Oficinas"></img>
+                  <div className="card-img-overlay bg-cards-prato mt-16">
+                    <p className="card-text text-center text-light text-legend-cards">Cursos e Oficinas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="container text-center mt-16">
+          <img src={Impacto}></img>
+        </div>
+        <div className="container-fluid mt-5">
+          <div className="col-12">
+            <div className="row">
+              <div className="col-12 col-sm-4">
+                <div className="container text-center">
+                  <img  src={MaosTronco} className="img-impacto-socidade" alt="..."></img>
+                  <div className="card-body mt-3">
+                    <h5 className="card-title card-imp-numbers">+5000</h5>
+                    <p className="card-text card-imp-text">Pessoas atendidas</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-sm-4">
+                <div className="container text-center">
+                  <img  src={MaosVida} className="img-impacto-socidade" alt="..."></img>
+                  <div className="card-body mt-3">
+                    <h5 className="card-title card-imp-numbers">+1400</h5>
+                    <p className="card-text card-imp-text">Treinamentos</p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-12 col-sm-4">
+                <div className="container text-center">
+                  <img  src={MaosTerra} className="img-impacto-socidade" alt="..."></img>
+                  <div className="card-body mt-3">
+                    <h5 className="card-title card-imp-numbers">+25000kg</h5>
+                    <p className="card-text card-imp-text">De alimentos produzidos</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
