@@ -17,6 +17,8 @@ import Impacto from './img/impacto-sociedade.png';
 import MaosTronco from './img/maos-ao-tronco.png';
 import MaosVida from './img/maos-vida.png';
 import MaosTerra from './img/maos-terra.png';
+import BallomLeft from './img/ballom-left.png';
+import BallomRight from './img/ballom-right.png';
 
 function App() {
 
@@ -177,6 +179,22 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="container">
+          <div className="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-12">
+            <h1 className="text-center text-nossa-equipe">NOSSA EQUIPE</h1>
+          </div>
+        </div>
+
+        <div className="container">
+          <div className="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-8">
+            <h4 className="text-end mt-1">biografia da equipe</h4>
+          </div>
+        </div>
+
+        <div className="d-flex justify-content-end">
+          <a><img src={BallomRight} alt="Borda referente a imagem com linhas compridas e finas formando um balão"></img></a>
         </div>
       </main>
       <footer>

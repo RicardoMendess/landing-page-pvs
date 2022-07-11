@@ -48,6 +48,13 @@
   height: 18px;
 }
 
+.text-nossa-equipe {
+  font-family: 'Amatic SC', cursive;
+  font-style: normal;
+  line-height: 56px;
+  margin-top: 15rem;
+}
+
 /* Adicionando atributos para componentes de botões */
 
 .btn-faca-doacao {
