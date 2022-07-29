@@ -246,6 +246,9 @@ function App() {
             </div>
           </div>
         </section>
+        <section className="container">
+          <h2 className="text-uppercase txt-parceiros text-center">Nossos Parceiros</h2>
+        </section>
       </main>
       <footer>
 

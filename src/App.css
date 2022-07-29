@@ -61,6 +61,11 @@
   text-align: start;
 }
 
+.txt-parceiros {
+  font-family: 'Amatic SC', cursive;
+  margin-top: 10rem;
+}
+
 /* Adicionando atributos para componentes de botões */
 
 .btn-faca-doacao {
