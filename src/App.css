@@ -55,6 +55,12 @@
   margin-top: 15rem;
 }
 
+.txt-prato-imprensa {
+  font-family: 'Amatic SC', cursive;
+  margin-top: 14rem;
+  text-align: start;
+}
+
 /* Adicionando atributos para componentes de botões */
 
 .btn-faca-doacao {

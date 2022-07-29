@@ -196,6 +196,17 @@ function App() {
         <div className="d-flex justify-content-end">
           <a><img src={BallomRight} alt="Borda referente a imagem com linhas compridas e finas formando um balão"></img></a>
         </div>
+        
+        <section className="col-12">
+          <div className="d-flex justify-content-between">
+            <div className="col-sm-6 col-md-4 col-lg-5 col-xl-5">
+              <img src={BallomLeft} title="Balão verde lateral esquerdo apontando para o prato na imprensa" lang="pt-br"></img>
+            </div>
+            <div className="col-sm-6 col-md-8 col-lg-7 col-xl-7">
+              <h2 className="text-uppercase txt-prato-imprensa">O prato na imprensa</h2>
+            </div>
+          </div>
+        </section>
       </main>
       <footer>
 
