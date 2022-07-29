@@ -189,7 +189,7 @@ function App() {
 
         <div className="container">
           <div className="col-12 col-sm-6 col-md-12 col-lg-12 col-xl-8">
-            <h4 className="text-end mt-1">sbiografia da equipe</h4>
+            <h4 className="text-end mt-1">biografia da equipe</h4>
           </div>
         </div>
 
