@@ -19,6 +19,12 @@ import MaosVida from './img/maos-vida.png';
 import MaosTerra from './img/maos-terra.png';
 import BallomLeft from './img/ballom-left.png';
 import BallomRight from './img/ballom-right.png';
+import EstadaoTitle from './img/estadao.png';
+import MsnTitle from './img/msn.png';
+import BbcTitle from './img/bbc.png';
+import EstadaoText from './img/estadao-text.png';
+import MsnText from './img/text-msn.png';
+import BbcText from './img/bbc-text.png';
 
 function App() {
 
@@ -204,6 +210,39 @@ function App() {
             </div>
             <div className="col-sm-6 col-md-8 col-lg-7 col-xl-7">
               <h2 className="text-uppercase txt-prato-imprensa">O prato na imprensa</h2>
+            </div>
+          </div>
+        </section>
+
+        <section className="container my-5">
+          <div className="col-12">
+            <div className="row justify-content-between">
+              <div className="card border-0 bg-transparent col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div className="card-img-top d-flex justify-content-center">
+                  <a><img src={EstadaoTitle} className="mt-4"></img></a>
+                </div>
+                <div className="card-body d-flex justify-content-center my-3">
+                  <a><img src={EstadaoText}></img></a>
+                </div>
+              </div>
+
+              <div className="card border-0 bg-transparent col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div className="card-img-top d-flex justify-content-center">
+                  <a><img src={MsnTitle}></img></a>
+                </div>
+                <div className="card-body d-flex justify-content-center">
+                  <a><img src={MsnText}></img></a>
+                </div>
+              </div>
+
+              <div className="card border-0 bg-transparent col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                <div className="card-img-top d-flex justify-content-center">
+                  <a><img src={BbcTitle} className="mt-4"></img></a>
+                </div>
+                <div className="card-body d-flex justify-content-center my-4">
+                  <a><img src={BbcText}></img></a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
