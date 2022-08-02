@@ -7,7 +7,6 @@ import Homem from './img/imagem-homem-camisa-azul.png';
 import BalaoEsquerdo from './img/balao-verde-esquerdo.png';
 import GrupoJovens from './img/grupo-jovens.png';
 import NossaHistoria from './img/nossa-historia.png';
-import BalaoDireito from './img/balao-verde-direito.png';
 import ProjetoPrato from './img/projetos-do-prato.png';
 import HortaAgro from './img/horta-agroecologica.png';
 import BioFertilizante from './img/biofertilizantes.png';
@@ -25,6 +24,15 @@ import BbcTitle from './img/bbc.png';
 import EstadaoText from './img/estadao-text.png';
 import MsnText from './img/text-msn.png';
 import BbcText from './img/bbc-text.png';
+import Amlurb from './img/amlurb.png';
+import Mystic from './img/mystic-soul.png';
+import Lab from './img/lab-nip.png';
+import Mutirao from './img/mutirao.png';
+import Fmu from './img/fmu.png';
+import Conf from './img/conf-pretos.png';
+import Atlan from './img/atlantikos.png';
+
+
 
 function App() {
 
@@ -103,7 +111,7 @@ function App() {
           </div>
         </div>
         <div className="col-12">
-          <img src={BalaoDireito} alt="Imagem de balão direito verde" />
+          <img src={BalaoEsquerdo} alt="Imagem de balão direito verde" />
         </div>
         <div className="container">
           <div className="col-12">
@@ -205,10 +213,10 @@ function App() {
         
         <section className="col-12">
           <div className="d-flex justify-content-between">
-            <div className="col-sm-6 col-md-4 col-lg-5 col-xl-5">
+            <div className="col-sm-6 col-md-4 col-lg-4 col-xl-4">
               <img src={BallomLeft} title="Balão verde lateral esquerdo apontando para o prato na imprensa" lang="pt-br"></img>
             </div>
-            <div className="col-sm-6 col-md-8 col-lg-7 col-xl-7">
+            <div className="col-sm-6 col-md-8 col-lg-8 col-xl-8">
               <h2 className="text-uppercase txt-prato-imprensa">O prato na imprensa</h2>
             </div>
           </div>
@@ -246,12 +254,44 @@ function App() {
             </div>
           </div>
         </section>
+
         <section className="container">
           <h2 className="text-uppercase txt-parceiros text-center">Nossos Parceiros</h2>
         </section>
+
+        <section className="container">
+          <div className="col-12 mt-5">
+            <div className="row justify-content-between align-itens-center">
+              <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <a><img src={Amlurb} className="mt-3"></img></a>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <a><img src={Mystic} className="mt-3"></img></a>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <a><img src={Lab} className="mt-4"></img></a>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <a><img src={Mutirao}></img></a>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <a><img src={Fmu} className="mt-4"></img></a>
+              </div>
+              <div className="col-sm-2 col-md-2 col-lg-2 col-xl-2">
+                <a><img src={Conf}></img></a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="container">
+          <div className="col-12 d-flex justify-content-center">
+            <a><img src={Atlan} className="mt-3"></img></a>
+          </div>
+        </section>
       </main>
       <footer>
-
+        
       </footer>
     </section>
   )

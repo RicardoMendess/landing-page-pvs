@@ -59,11 +59,12 @@
   font-family: 'Amatic SC', cursive;
   margin-top: 14rem;
   text-align: start;
+  margin-left: 7rem;
 }
 
 .txt-parceiros {
   font-family: 'Amatic SC', cursive;
-  margin-top: 10rem;
+  margin-top: 18rem;
 }
 
 /* Adicionando atributos para componentes de botões */
@@ -178,3 +179,4 @@
   line-height: 36px;
   letter-spacing: 0.3px;
 }
+
